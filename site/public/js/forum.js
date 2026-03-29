@@ -2523,6 +2523,7 @@ function setupForumAutosave() {
     // on the create thread page.
     $('form.reply-box, form.post_reply_form, #thread_form').each((_index, replyBox) => {
         restoreReplyBoxFromLocal(replyBox);
+        enableTabsInTextArea($(replyBox).find('textarea.thread_post_content'));
         $(replyBox).find('textarea.thread_post_content').on('input',
             () => deferredSave(autosaveKeyFor(replyBox), () => saveReplyBoxToLocal(replyBox), 1),
         );
