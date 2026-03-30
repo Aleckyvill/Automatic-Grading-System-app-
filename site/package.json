@@ -27,7 +27,7 @@
     "@codemirror/view": "6.39.12",
     "@fortawesome/fontawesome-free": "7.1.0",
     "@highlightjs/cdn-assets": "11.11.1",
-    "bootstrap": "4.6.0",
+    "bootstrap": "5.3.8",
     "chosen-js": "1.8.7",
     "codemirror": "5.65.20",
     "codemirror-spell-checker": "1.1.2",
