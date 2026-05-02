@@ -39,7 +39,7 @@
     "jspdf": "^4.0.0",
     "katex": "^0.16.27",
     "luxon": "3.7.2",
-    "pdfjs-dist": "5.4.530",
+    "pdfjs-dist": "5.7.284",
     "mermaid": "11.12.2",
     "plotly.js-dist": "3.3.1",
     "select2": "4.1.0-rc.0",
